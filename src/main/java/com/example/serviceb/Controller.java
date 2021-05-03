@@ -8,7 +8,7 @@ public class Controller {
 
     @GetMapping(path = "/b")
     public String response(){
-        return "Response from B";
+        return "Response from the Private Service (B)";
     }
 
 }
