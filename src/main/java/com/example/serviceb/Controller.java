@@ -12,7 +12,7 @@ public class Controller {
 
     @GetMapping(path = "/b")
     public String response(){
-        return "Response from the Private Service (B) 4.1.0:\n" + reply;
+        return "Service B (Private) 4.2.0:" + reply;
     }
 
 }
